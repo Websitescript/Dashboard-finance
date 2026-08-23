@@ -73,7 +73,7 @@ def fetch_live() -> list[dict]:
 
     live = []
     for status in ("upcoming", "open"):
-        url = f"{IPOALERTS_BASE}/ipos?status={status}&limit=50&includeGmp=true"
+        url = f"{IPOALERTS_BASE}/ipos?status={status}&limit=10"
         try:
             resp = requests.get(url, headers={"x-api-key": api_key}, timeout=15)
             resp.raise_for_status()
