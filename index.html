@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>New Tab</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Live markets ticker tape -->
+  <div class="ticker-wrap">
+    <div class="ticker-track" id="ticker-track"></div>
+  </div>
+
+  <div class="container">
+
+    <!-- Clock + Search -->
+    <header class="hero">
+      <div class="clock-block">
+        <div class="clock-time" id="clock-time">--:--:--</div>
+        <div class="clock-date" id="clock-date"></div>
+      </div>
+
+      <form class="search-form" id="search-form">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input id="search-input" type="text" placeholder="Search Google or type a URL…" autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+
+    <!-- Quick links -->
+    <section class="block">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Shortcuts</p>
+          <h2 class="section-title">Quick Links</h2>
+        </div>
+      </div>
+      <div class="grid links" id="links-grid">
+        <div class="add-tile" id="add-link-tile">+</div>
+      </div>
+    </section>
+
+    <!-- Folders -->
+    <section class="block">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Groups</p>
+          <h2 class="section-title">Folders</h2>
+        </div>
+      </div>
+      <div class="grid folders" id="folders-grid">
+        <div class="add-tile" id="add-folder-tile">+</div>
+      </div>
+    </section>
+
+    <!-- Markets -->
+    <section class="block">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Markets</p>
+          <h2 class="section-title">Financial Snapshot</h2>
+          <p class="section-sub">NIFTY 50 · Gold (India &amp; US) · US Market · Mirae Asset FANG+ ETF</p>
+        </div>
+        <span class="m-unit" id="markets-updated-at"></span>
+      </div>
+      <div class="grid markets" id="markets-grid"></div>
+    </section>
+
+    <!-- IPO watchlist -->
+    <section class="block">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">IPO Watch</p>
+          <h2 class="section-title">Upcoming &amp; Open IPOs</h2>
+          <p class="section-sub">Dates, price band and grey market premium</p>
+        </div>
+        <span class="m-unit" id="ipo-updated-at"></span>
+      </div>
+      <div class="ipo-table-wrap" id="ipo-table-wrap"></div>
+      <p class="disclaimer">
+        GMP (Grey Market Premium) reflects unofficial, informal trading and can change hourly or vanish entirely —
+        treat it as a rough sentiment indicator, not a price guarantee. Figures here are refreshed periodically by
+        an automated job and may lag the live grey market. Not investment advice.
+      </p>
+    </section>
+
+    <!-- Saved links -->
+    <section class="block">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Notes</p>
+          <h2 class="section-title">Saved Links</h2>
+        </div>
+      </div>
+      <form class="todo-form" id="todo-form">
+        <input id="todo-input" type="text" placeholder="Paste a link or jot a note…" autocomplete="off" />
+        <button type="submit">Add</button>
+      </form>
+      <ul class="todo-list" id="todo-list"></ul>
+    </section>
+
+    <footer class="site-footer">
+      Stored locally in this browser · Markets &amp; IPO data refreshed automatically
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-backdrop hidden" id="modal-backdrop"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/bookmarks.js"></script>
+  <script src="js/folders.js"></script>
+  <script src="js/todos.js"></script>
+  <script src="js/markets.js"></script>
+  <script src="js/ipos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

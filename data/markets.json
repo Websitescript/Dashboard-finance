@@ -1,0 +1,11 @@
+{
+  "updatedAt": null,
+  "note": "Placeholder — run the 'Refresh market & IPO data' GitHub Action (or scripts/fetch_markets.py locally) to populate this with live data.",
+  "quotes": [
+    { "symbol": "^NSEI", "label": "NIFTY 50", "price": null, "previousClose": null, "change": null, "changePercent": null, "currency": "", "unit": "index" },
+    { "symbol": "GOLDBEES.NS", "label": "Gold India (Gold BeES, NSE)", "price": null, "previousClose": null, "change": null, "changePercent": null, "currency": "", "unit": "per unit" },
+    { "symbol": "GC=F", "label": "Gold USA (COMEX)", "price": null, "previousClose": null, "change": null, "changePercent": null, "currency": "", "unit": "per troy oz" },
+    { "symbol": "^GSPC", "label": "US Stock Market (S&P 500)", "price": null, "previousClose": null, "change": null, "changePercent": null, "currency": "", "unit": "index" },
+    { "symbol": "MAFANG.NS", "label": "Mirae Asset NYSE FANG+ ETF", "price": null, "previousClose": null, "change": null, "changePercent": null, "currency": "", "unit": "per unit" }
+  ]
+}

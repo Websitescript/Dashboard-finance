@@ -1,0 +1,21 @@
+{
+  "updatedAt": "2026-08-22T16:47:26.343957+00:00",
+  "ipos": [
+    {
+      "name": "Sample Company Ltd (edit me)",
+      "type": "Mainboard",
+      "openDate": "2026-09-01",
+      "closeDate": "2026-09-03",
+      "listingDate": "2026-09-08",
+      "priceRangeMin": 120,
+      "priceRangeMax": 128,
+      "lotSize": 110,
+      "issueSize": "\u20b9450 Cr",
+      "gmp": 18,
+      "status": "upcoming",
+      "infoUrl": "",
+      "source": "manual",
+      "gmpPercent": 14.06
+    }
+  ]
+}
