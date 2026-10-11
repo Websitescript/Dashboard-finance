@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-11T13:14:36.857231+00:00",
+  "updatedAt": "2026-10-11T18:15:34.555032+00:00",
   "quotes": [
     {
       "symbol": "^NSEI",
       "label": "NIFTY 50",
       "unit": "index",
-      "fetchedAt": "2026-10-11T13:14:36.857231+00:00",
+      "fetchedAt": "2026-10-11T18:15:34.555032+00:00",
       "price": 22520.45,
       "previousClose": 22555.75,
       "change": -35.3,
@@ -16,18 +16,18 @@
       "symbol": "GOLDBEES.NS",
       "label": "Gold India (Gold BeES, NSE)",
       "unit": "per unit",
-      "fetchedAt": "2026-10-11T13:14:36.857231+00:00",
-      "price": 122.75,
+      "fetchedAt": "2026-10-11T18:15:34.555032+00:00",
+      "price": 122.78,
       "previousClose": 121.58,
-      "change": 1.17,
-      "changePercent": 0.9623,
+      "change": 1.2,
+      "changePercent": 0.987,
       "currency": "INR"
     },
     {
       "symbol": "GC=F",
       "label": "Gold USA (COMEX)",
       "unit": "per troy oz",
-      "fetchedAt": "2026-10-11T13:14:36.857231+00:00",
+      "fetchedAt": "2026-10-11T18:15:34.555032+00:00",
       "price": 4216.3,
       "previousClose": 4187.1,
       "change": 29.2,
@@ -38,7 +38,7 @@
       "symbol": "^GSPC",
       "label": "US Stock Market (S&P 500)",
       "unit": "index",
-      "fetchedAt": "2026-10-11T13:14:36.857231+00:00",
+      "fetchedAt": "2026-10-11T18:15:34.555032+00:00",
       "price": 7811.54,
       "previousClose": 7722.72,
       "change": 88.82,
@@ -49,11 +49,11 @@
       "symbol": "MAFANG.NS",
       "label": "Mirae Asset NYSE FANG+ ETF",
       "unit": "per unit",
-      "fetchedAt": "2026-10-11T13:14:36.857231+00:00",
-      "price": 287.07,
+      "fetchedAt": "2026-10-11T18:15:34.555032+00:00",
+      "price": 284.0,
       "previousClose": 259.42,
-      "change": 27.65,
-      "changePercent": 10.6584,
+      "change": 24.58,
+      "changePercent": 9.475,
       "currency": "INR"
     }
   ]
