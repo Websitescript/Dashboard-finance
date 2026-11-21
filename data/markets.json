@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-21T03:45:27.681880+00:00",
+  "updatedAt": "2026-11-21T12:01:39.705741+00:00",
   "quotes": [
     {
       "symbol": "^NSEI",
       "label": "NIFTY 50",
       "unit": "index",
-      "fetchedAt": "2026-11-21T03:45:27.681880+00:00",
+      "fetchedAt": "2026-11-21T12:01:39.705741+00:00",
       "price": 25800.6,
       "previousClose": 25291.1,
       "change": 509.5,
@@ -16,29 +16,29 @@
       "symbol": "GOLDBEES.NS",
       "label": "Gold India (Gold BeES, NSE)",
       "unit": "per unit",
-      "fetchedAt": "2026-11-21T03:45:27.681880+00:00",
-      "price": 102.21,
+      "fetchedAt": "2026-11-21T12:01:39.705741+00:00",
+      "price": 101.57,
       "previousClose": 110.06,
-      "change": -7.85,
-      "changePercent": -7.1325,
+      "change": -8.49,
+      "changePercent": -7.714,
       "currency": "INR"
     },
     {
       "symbol": "GC=F",
       "label": "Gold USA (COMEX)",
       "unit": "per troy oz",
-      "fetchedAt": "2026-11-21T03:45:27.681880+00:00",
-      "price": 3539.0,
+      "fetchedAt": "2026-11-21T12:01:39.705741+00:00",
+      "price": 3515.4,
       "previousClose": 3853.0,
-      "change": -314.0,
-      "changePercent": -8.1495,
+      "change": -337.6,
+      "changePercent": -8.762,
       "currency": "USD"
     },
     {
       "symbol": "^GSPC",
       "label": "US Stock Market (S&P 500)",
       "unit": "index",
-      "fetchedAt": "2026-11-21T03:45:27.681880+00:00",
+      "fetchedAt": "2026-11-21T12:01:39.705741+00:00",
       "price": 6910.39,
       "previousClose": 7561.67,
       "change": -651.28,
@@ -49,11 +49,11 @@
       "symbol": "MAFANG.NS",
       "label": "Mirae Asset NYSE FANG+ ETF",
       "unit": "per unit",
-      "fetchedAt": "2026-11-21T03:45:27.681880+00:00",
-      "price": 219.76,
+      "fetchedAt": "2026-11-21T12:01:39.705741+00:00",
+      "price": 221.5,
       "previousClose": 236.96,
-      "change": -17.2,
-      "changePercent": -7.2586,
+      "change": -15.46,
+      "changePercent": -6.5243,
       "currency": "INR"
     }
   ]
